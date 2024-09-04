@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #555;
+    padding: 30px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #777;
+}
+nav a:hover {
+    background-color: #333;
+}
+nav a.active {
+    background-color: #333;
+    color: white; /* Optional: Change text color when active */
+}
+
+
+
+
+section {
+    padding: 0px;
+}
